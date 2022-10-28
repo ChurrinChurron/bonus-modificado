@@ -725,7 +725,7 @@ input[type="checkbox"]:checked::after {
 .description-cod {
 
     background-color: #efefef;
-    padding: 1.4em 1em 1.725em 1em;
+    padding: 1em 1em 1.5em 1em;
     color: #616161;
 }
 
@@ -994,6 +994,8 @@ footer h4 {
 .dudas b {
 
     font-family: markProBold;
+    text-decoration: none;
+    color: #6b6b6b;
 }
 
 .dudas img {
