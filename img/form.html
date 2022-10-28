@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styledef.css">
+    <title>Bonus Affiliation Landing</title>
+</head>
+<body>
+    <div class="globos-form">
+        <img src="img/globo-derecha.png" alt="globos">
+    </div>
+    <!-- <div class="circle"></div> -->
+    <header>
+        <a href="#"><img src="img/mobile/back.png" alt="back arrow"></a>
+        <img id="logo" src="img/logo.png" alt="bonus logo">
+    </header>
+
+    <main class="main-form">
+        <div id="bonus-compras">
+            <img src="img/header-form.png" alt="bonus" />
+        </div>
+        
+        <div class="content">
+            <div class="banner desktop">
+                <div class="banner imagen"></div>
+            </div>
+        
+                <div id="flex">    
+                    <div class="points form none">
+                            <h2>¡<b>Regístrate HOY y GANA</b> 1 opción para el sorteo! </h2>
+                            <br/>
+                            <form id="formularioDatos">
+                                <div id="input-document">
+                                    <div><label class="type-document"> D.N.I</label><img class="modal-document" src="img/icons/seleccion_abajo.svg" alt="arrow-down"></div>
+                                    <input type="number" name="document" id="docu" placeholder="Nº de documento">
+                                    <div class="icon"><img src="img/icons/dni.svg" alt="dni"></div>
+                                </div>
+                                <div id="input-phone">
+                                    <input type="number" name="phone" id="telephone" placeholder="Celular">
+                                    <div class="icon"><img src="img/icons/celular.svg" alt="phone"></div>
+                                </div>
+                                <div id="input-mail">
+                                    <input type="email" name="mail" id="email" placeholder="E - mail">
+                                    <div class="icon"><img src="img/icons/correo.svg" alt="mail"></div>
+                                </div>
+                                <div class="terms-list">
+                                    <div class="terms">
+                                        <input type="checkbox" name="terms" id="condiciones" class="moz-check">
+                                        <label for="condiciones" id="terms-text">Acepto los <a href="#">términos y condiciones</a></label>
+                                    </div>
+                                    <div class="terms">
+                                        <input type="checkbox" name="terms" id="proteccion" class="moz-check">
+                                        <label for="proteccion" id="terms-text">Acepto la <a href="#">claúsula de protección de datos</a></label>
+                                    </div>
+                                </div>
+                                <br/>
+                                <p id="type-complete">Completa tus datos y entérate de
+                                    todos los beneficios de la campaña.</p>
+                                <input type="submit" name="one" id="registro" value="REGISTRARME">
+                            </form>
+
+                    </div>
+                    
+                    <div id="logos-particip">
+                        <img src="img/logos-participantes/Metro.svg" alt="metro" />
+                        <img src="img/logos-participantes/Wong.svg" alt="wong" />
+                        <img id="primax" src="img/logos-participantes/Primax.svg" alt="primax" />
+                        <img id="listo" src="img/logos-participantes/Listo.svg" alt="listo" />
+                        <img src="img/logos-participantes/KFC.svg" alt="KFC" />
+                        <img src="img/logos-participantes/Pizza-Hut.svg" alt="pizza-hut" />
+                        <img src="img/logos-participantes/Burguer-King.svg" alt="burguer-king">
+                        <img src="img/logos-participantes/pinkberry.svg" alt="pinkberry">
+                        <img id="chilis" src="img/logos-participantes/Chilis.svg" alt="chilis">     
+                    </div>
+                </div>
+
+        </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="dudas">
+            <p><b>¿Dudas?</b> Escríbenos al <b><img src="img/icons/whatsapp.svg" alt="whatsapp-icon" />946 348 142</b> o llámanos al <b>01 610 5252</b></p>
+        </div>
+        <div class="acerca">
+            <div class="acerca-bonus">
+                <div class="acerca-enlaces">
+                    <h3>ACERCA DE BONUS</h3>
+                    <a href="#">Quíenes Somos</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                    <a href="#">Trabaja con Nosotros</a>
+                </div>
+                <div class="acerca-enlaces">
+                    <h3>ACERCA DE BONUS</h3>
+                    <a href="#">Contáctenos</a>
+                    <a href="#">Sugerencias</a>
+                    <a href="#">Libro Reclamaciones</a>
+                    <a href="#">Comprobantes Electrónicos</a>
+                </div>
+            </div>
+            <div class="derechos">
+                <p>Esta tienda está certificada por Thowte y 
+                    autorizada por Visa y MasterCard para realizar transacciones
+                     electrónicas seguras.
+                </p>
+                <br/>
+                <p>©Loyalty Peru S.A.C 2003 - 2016. Todos los Derechos Reservados.</p>
+                <div class="derechos-iconos">
+                    <img src="img/icons/visa.svg" alt="visa">
+                    <img src="img/icons/mastercard.svg" alt="mastercard">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--modal de la selección de documento-->
+
+    <div class="modal selec-doc des-sel">
+        <div class="modal white">
+            <div id="close">
+                <button class="modal-close"><img src="img/icons/cerrar_popup_informacion.svg" alt="close"></button>
+            </div>
+            <h2>SELECCIONA UN TIPO DE DOCUMENTO</h2>
+            <div class="selec-lista">
+                <button class="lista-botones" id="selec-dni">D.N.I</button>
+                <button class="lista-botones" id="selec-pasaporte">Pasaporte</button>
+                <button class="lista-botones" id="selec-ce">C.E</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    let none = document.querySelector(".selec-doc");
+    let abrirLista = document.querySelector(".modal-document");
+    let botonCerrar = document.querySelector(".modal-close");
+    let loader = document.querySelector(".load");
+    let botonRegistro = document.querySelector("#registro");
+    let contenido = document.querySelector(".points");
+    let logos = document.getElementById("logos-particip");
+
+    //Cambio de texto en el documento (preferiblemente hacerlo con input type select)
+
+    let tipoDocu = document.querySelector(".type-document");
+    let inputDocu = document.getElementById("docu");
+    let inputCelu = document.getElementById("telephone");
+    let maxNum = 8;
+    let selDocumento = document.getElementById("selec-dni");
+    let selPasaporte = document.getElementById("selec-pasaporte");
+    let selCe = document.getElementById("selec-ce");
+    let formulario = document.getElementById("formularioDatos");
+
+//contenido del cuadro de los formularios
+
+    contenido.classList.remove("none");
+
+//abrir el pop up de la selección del documento
+
+    abrirLista.addEventListener("click", () => {
+
+        none.classList.remove("des-sel");
+    });
+
+    botonCerrar.addEventListener("click", () => {
+
+        none.classList.add("des-sel");
+    })
+        
+    none.addEventListener("click", () => {
+
+        none.classList.add("des-sel");
+    })
+
+//Cambio de texto en label de selección de documento
+
+    inputDocu.addEventListener("input", e => {
+
+        if(e.target.value > maxNum) {
+
+            e.target.value = e.target.value.slice(0, maxNum);
+        }
+        
+    });
+
+    selDocumento.addEventListener("click", () => {
+
+        tipoDocu.innerHTML = "D.N.I";
+        none.classList.add("des-sel");
+        inputDocu.type = "number";
+        formulario.reset();
+
+        inputDocu.addEventListener("input", e => {
+
+            if(e.target.value > maxNum) {
+
+                e.target.value = e.target.value.slice(0, maxNum);
+            }
+        
+        });
+    });
+
+    selPasaporte.addEventListener("click", () => {
+
+        tipoDocu.innerHTML = "Pasaporte";
+        none.classList.add("des-sel");
+        inputDocu.type = "text";
+        inputDocu.maxLength = 15;
+        formulario.reset();
+
+    });
+
+    selCe.addEventListener("click", () => {
+
+        tipoDocu.innerHTML = "C.E";
+        none.classList.add("des-sel");
+        inputDocu.type = "text";
+        inputDocu.maxLength = 9;
+        formulario.reset();
+
+    });
+
+    //limitación input cel
+
+    inputCelu.addEventListener("input", e => {
+
+        if(e.target.value > 9) {
+
+        e.target.value = e.target.value.slice(0, 9);
+
+        }
+    });
+
+    </script>
+</body>
+</html>
