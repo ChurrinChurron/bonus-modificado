@@ -683,13 +683,13 @@ input[type="checkbox"]:checked::after {
     border-radius: 10px;
     position: absolute;
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
             backface-visibility: hidden;
 }
 
 .front {
 
     background-color: #efefef;
-    z-index: 2;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
 }
