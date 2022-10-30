@@ -737,7 +737,7 @@ input[type="checkbox"]:checked::after {
 .description-cod {
 
     background-color: #efefef;
-    padding: 1.4em 1em 1em 1em;
+    padding: 1.2em 1em 1em 1em;
     color: #616161;
 }
 
@@ -1168,6 +1168,11 @@ footer h4 {
         height: 95vh;
     }
 
+    #banner-top {
+
+        height: 100%;
+    }
+
     .load {
 
         height: 25em;
@@ -1450,7 +1455,8 @@ footer h4 {
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        align-items: center; 
+        align-items: center;
+        
     }
 
     .globos-form > img {
