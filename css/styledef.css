@@ -114,6 +114,7 @@ main {
 #bonus-compras #header-mobile {
 
     width: 100%;
+    height: 9.5em;
 }
 
 .desktop {
@@ -172,6 +173,7 @@ main {
 
     display: block;
     width: 100%;
+    height: 9.5em;
     margin: 0;
 }
 
@@ -735,23 +737,8 @@ input[type="checkbox"]:checked::after {
 .description-cod {
 
     background-color: #efefef;
-    padding: 1.4em 1em 1.725em 1em;
+    padding: 1.4em 1em 1em 1em;
     color: #616161;
-}
-
-#cupon-deshabil-op, .cup-des-op, .front #img-des {
-
-    opacity: 0.3;
-}
-
-.description-cod-deshabil {
-
-    background-color: #efefef;
-    height: 285px;
-    padding: 1em;
-    text-align: left;
-    color: #616161;
-    font-family: markProBold;
 }
 
 #codigo-cupon {
@@ -871,6 +858,16 @@ input[type="checkbox"]:checked::after {
 #logos-particip #listo {
 
     width: 50px;
+}
+
+#logos-particip #kfc {
+
+    width: 30px;
+}
+
+#logos-particip #pizza {
+
+    width: 32px;
 }
 
 #logos-particip #burguer {
@@ -1292,12 +1289,22 @@ footer h4 {
 
     #logos-particip #primax {
 
-        width: 85px;
+        width: 80px;
     }
 
     #logos-particip #listo {
 
-        width: 65px;
+        width: 60px;
+    }
+
+    #logos-particip #kfc {
+
+        width: 39px;
+    }
+    
+    #logos-particip #pizza {
+    
+        width: 37px;
     }
 
     #logos-particip #burguer {
@@ -1443,8 +1450,7 @@ footer h4 {
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
-        
+        align-items: center; 
     }
 
     .globos-form > img {
@@ -1454,7 +1460,7 @@ footer h4 {
 
     #bonus-compras img {
 
-        width: 58vw;
+        width: 59vw;
         height: 91vh;
     }
 }
