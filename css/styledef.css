@@ -655,7 +655,7 @@ input[type="checkbox"]:checked::after {
 
 .tabla {
 
-    margin: 3em auto;
+    margin: 2.5em auto 1em auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 5em;
@@ -1330,6 +1330,7 @@ footer h4 {
 
     .tabla {
 
+        margin: 3em auto;
         grid-template-columns: 50% 0%;
         grid-gap: 8em 13em;
     }
